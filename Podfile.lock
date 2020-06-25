@@ -1,0 +1,152 @@
+PODS:
+  - Ambience (0.1.1)
+  - Crashlytics (3.10.2):
+    - Fabric (~> 1.7.7)
+  - Disk (0.3.3)
+  - Fabric (1.7.7)
+  - Firebase/Core (5.3.0):
+    - Firebase/CoreOnly
+    - FirebaseAnalytics (= 5.0.1)
+  - Firebase/CoreOnly (5.3.0):
+    - FirebaseCore (= 5.0.4)
+  - Firebase/Database (5.3.0):
+    - Firebase/CoreOnly
+    - FirebaseDatabase (= 5.0.1)
+  - Firebase/Messaging (5.3.0):
+    - Firebase/CoreOnly
+    - FirebaseMessaging (= 3.0.2)
+  - Firebase/RemoteConfig (5.3.0):
+    - Firebase/Core
+    - FirebaseRemoteConfig (= 3.0.0)
+  - FirebaseABTesting (2.0.0):
+    - FirebaseCore (~> 5.0)
+    - Protobuf (~> 3.5)
+  - FirebaseAnalytics (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - nanopb (~> 0.3)
+  - FirebaseCore (5.0.4):
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+  - FirebaseDatabase (5.0.1):
+    - FirebaseCore (~> 5.0)
+    - leveldb-library (~> 1.18)
+  - FirebaseInstanceID (3.1.1):
+    - FirebaseCore (~> 5.0)
+  - FirebaseMessaging (3.0.2):
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - GoogleToolboxForMac/Logger (~> 2.1)
+    - Protobuf (~> 3.1)
+  - FirebaseRemoteConfig (3.0.0):
+    - FirebaseABTesting (~> 2.0)
+    - FirebaseAnalytics (~> 5.0)
+    - FirebaseCore (~> 5.0)
+    - FirebaseInstanceID (~> 3.0)
+    - "GoogleToolboxForMac/NSData+zlib (~> 2.1)"
+    - Protobuf (~> 3.5)
+  - GoogleToolboxForMac/Defines (2.1.4)
+  - GoogleToolboxForMac/Logger (2.1.4):
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - "GoogleToolboxForMac/NSData+zlib (2.1.4)":
+    - GoogleToolboxForMac/Defines (= 2.1.4)
+  - Kingfisher (4.8.0)
+  - leveldb-library (1.20)
+  - LifetimeTracker (1.2.1)
+  - MKRingProgressView (2.0.1)
+  - nanopb (0.3.8):
+    - nanopb/decode (= 0.3.8)
+    - nanopb/encode (= 0.3.8)
+  - nanopb/decode (0.3.8)
+  - nanopb/encode (0.3.8)
+  - netfox (1.11.1)
+  - Protobuf (3.6.0)
+  - Purchases (1.0.0)
+  - ReachabilitySwift (4.1.0)
+  - Realm (3.14.1):
+    - Realm/Headers (= 3.14.1)
+  - Realm/Headers (3.14.1)
+  - RealmSwift (3.14.1):
+    - Realm (= 3.14.1)
+  - TPKeyboardAvoiding (1.3.2)
+  - Zip (1.1.0)
+
+DEPENDENCIES:
+  - Ambience
+  - Crashlytics
+  - Disk
+  - Fabric
+  - Firebase/Core
+  - Firebase/Database
+  - Firebase/Messaging
+  - Firebase/RemoteConfig
+  - Kingfisher
+  - LifetimeTracker (= 1.2.1)
+  - MKRingProgressView
+  - netfox
+  - Purchases
+  - ReachabilitySwift
+  - RealmSwift (~> 3.14)
+  - TPKeyboardAvoiding
+  - Zip
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Ambience
+    - Crashlytics
+    - Disk
+    - Fabric
+    - Firebase
+    - FirebaseABTesting
+    - FirebaseAnalytics
+    - FirebaseCore
+    - FirebaseDatabase
+    - FirebaseInstanceID
+    - FirebaseMessaging
+    - FirebaseRemoteConfig
+    - GoogleToolboxForMac
+    - Kingfisher
+    - leveldb-library
+    - LifetimeTracker
+    - MKRingProgressView
+    - nanopb
+    - netfox
+    - Protobuf
+    - Purchases
+    - ReachabilitySwift
+    - Realm
+    - RealmSwift
+    - TPKeyboardAvoiding
+    - Zip
+
+SPEC CHECKSUMS:
+  Ambience: 7b65da120d270b6a2a2591a3e2ab08871363f43d
+  Crashlytics: 0360624eea1c978a743feddb2fb1ef8b37fb7a0d
+  Disk: d1f55cd61f6ca20f368232d0c6e37e3c3dfcb63e
+  Fabric: bda89e242bce1b7b8ab264248cf3407774ce0095
+  Firebase: 68afeeb05461db02d7c9e3215cda28068670f4aa
+  FirebaseABTesting: 1f50b8d50f5e3469eea54e7463a7b7fe221d1f5e
+  FirebaseAnalytics: b3628aea54c50464c32c393fb2ea032566e7ecc2
+  FirebaseCore: 62f1b792a49bb9e8b4073f24606d2c93ffc352f0
+  FirebaseDatabase: 482bad9c2abd422bb2321194fb8c937e67426a89
+  FirebaseInstanceID: f3f0657372592ecdfdfe2cac604a5a75758376a6
+  FirebaseMessaging: 6894b8fe0a0cf26c3b13dad729f1131654ae0bdb
+  FirebaseRemoteConfig: 3c57e4644bd6976b671ae0b725cd709f198bd1f5
+  GoogleToolboxForMac: 91c824d21e85b31c2aae9bb011c5027c9b4e738f
+  Kingfisher: 976d828df2b24834c6a3f2fc4d82cdbd26552be1
+  leveldb-library: 08cba283675b7ed2d99629a4bc5fd052cd2bb6a5
+  LifetimeTracker: a92dcb518ecce213effdb62ae8c2645ff3c813a3
+  MKRingProgressView: a2adeddfff0ea03f0fb7f8b108f3f77176db3bb5
+  nanopb: 5601e6bca2dbf1ed831b519092ec110f66982ca3
+  netfox: 5230196df3ca093a9418e079eb6e8f3776f15d14
+  Protobuf: 0fc0ad8bec688b2a3017a139953e01374fedbd5f
+  Purchases: be54241941dcf0049a01673135ea6564301b8580
+  ReachabilitySwift: 6849231cd4e06559f3b9ef4a97a0a0f96d41e09f
+  Realm: e12c9c2387d05c5bba3a9c394838f5870e85763b
+  RealmSwift: a82eab9b04c3e1616082c7e17aa300740847769c
+  TPKeyboardAvoiding: cb69d5ddbe90ce0170e4bc2db1e5e41d4a3ad9a4
+  Zip: 8877eede3dda76bcac281225c20e71c25270774c
+
+PODFILE CHECKSUM: 3eea0a60aa7d404f1b84c02a00b282cb210f993a
+
+COCOAPODS: 1.5.3
